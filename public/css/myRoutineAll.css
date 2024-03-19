@@ -10,11 +10,15 @@ body {
 .my-routine-content {
   display: flex;
 
-  margin: 10px 0;
+  max-width: 1380px;
+
+  padding: 10px 0;
+  margin: auto;
 }
 
 .my-routine-text-wrapper {
-  margin: 0 170px;
+  max-width: 560px;
+  padding: 0 100px;
 
   flex: none;
 }
@@ -52,7 +56,8 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 148px);
   gap: 14px;
-  padding: 0 170px 0 10px;
+  max-width: 816px;
+  padding: 0 10px;
 }
 
 .my-routine {
